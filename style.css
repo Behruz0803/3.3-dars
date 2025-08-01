@@ -1,0 +1,233 @@
+body{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    width: 1440px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+header div{
+    margin-left: 163px;
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: 0px 4px 7.4px white;
+    color: white;
+    position: absolute;
+    right: 250px;
+}
+header img{
+    margin-left: 100px;
+}
+main{
+    width: 1440px;
+    height: 594px;
+    background-image: url("./Rectangle\ 2.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1{
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    font-size: 64px;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.relative{
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 22px 27.8px 0px white;
+    text-shadow: 0px 4px 7.4px white;
+}
+.relative{
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+}
+.relative p{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    font-weight: bold;
+}
+.qizil1{
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    position: absolute;
+    bottom: 104px;
+    left: 119px;
+    color: #32FB00;
+    z-index: 1;
+}
+.qizil1 p{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+}
+.relative1{
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 22px 27.8px 0px white;
+    text-shadow: 0px 4px 7.4px white;
+    position: absolute;
+    bottom: 104px;
+    left: 610px;
+}
+.relative1 p{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    font-weight: bold;
+}   
+.absolut{
+    width: 411px;
+    height: 209px;
+    background-color: #F70101;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: -91px;
+    color: #32FB00;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    text-shadow: 0px 4px 7.4px white;
+}
+.absolut p{
+    position: absolute;
+    left: 168px;
+    top: 70px;
+}
+.relative2{
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 22px 27.8px 0px white;
+    text-shadow: 0px 4px 7.4px white;
+}
+.relative2{
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+.relative2 p{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    font-weight: bold;
+}
+.qizil{
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    position: absolute;
+    bottom: 104px;
+    right: 119px;
+    color: #32FB00;
+    z-index: 1;
+}
+.qizil p{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+}
+.container{
+    width: 1440px;
+    height: 857px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    font-size: 64px;
+    font-weight: bold;
+    background-color: white;
+    width: 602px;
+    height: 75px;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 79px;
+}
+.uchta{
+    display: flex;
+    justify-content: center;
+    gap: 88px;
+    margin-top: 100px;
+}
+.uchta div{
+    width: 368px;
+    height: 332px;
+    background-color: #7B2525;
+    align-items: center;
+}
+.uchta{
+    text-shadow: 0px 4px 7.4px white;
+    color: white;
+    text-align: center;
+}
+.uchta p{
+    text-shadow: 0px 0px 0px white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 65px;
+}
+.uchta h2{
+    font-size: 32px;
+    margin-top: 50px;
+}
+.uchta div{
+    align-items: center;
+}
+.rela{
+    position: relative;
+    top: 30px;
+}
+.header{
+    width: 1440px;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.header div{
+    margin-left: 163px;
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: 0px 4px 7.4px white;
+    color: white;
+    position: absolute;
+    right: 250px;
+}
+.header img{
+    margin-left: 100px;
+}
