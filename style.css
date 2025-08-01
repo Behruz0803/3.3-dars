@@ -133,7 +133,7 @@ main h1{
 .relative2{
     position: absolute;
     bottom: 100px;
-    right: 100px;
+    right: 120px;
 }
 .relative2 p{
     position: absolute;
